@@ -25,7 +25,7 @@ def calculate_premium(base_premium, customer_data):
         'Central London': 1.5, 'Outer London': 1.3, 'Birmingham': 1.25, 'Manchester': 1,
         'Leeds': 1.05, 'Glasgow': 1.15, 'Liverpool': 1.2, 'Newcastle': 1, 'Sheffield': 1.05,
         'Bristol': 1, 'Edinburgh': 0.9, 'Cardiff': 1, 'Belfast': 0.95, 'Surrey': 0.95,
-        'Southampton': 0.95, 'Essex': 1, 'Kent': 0.9, 'Oxford': 0.95, 'Cambridge [Cambridge](https://en.wikipedia.org/wiki/Cambridge): 0.95,
+        'Southampton': 0.95, 'Essex': 1, 'Kent': 0.9, 'Oxford': 0.95, 'Cambridge': 0.95,
         'Norwich': 0.85, 'York': 0.85, 'Cornwall': 0.8, 'Devon': 0.8, 'Norfolk': 0.75,
         'Scottish Highlands': 0.7, 'North Wales': 0.75, 'South Wales': 0.85, 'Lake District': 0.7,
         'Isle of Wight': 0.75
