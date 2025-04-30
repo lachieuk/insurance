@@ -1,3 +1,5 @@
+import streamlit as st
+
 # Lachie Insurance Testing App
 def calculate_premium(base_premium, customer_data):
     # Factor definitions
