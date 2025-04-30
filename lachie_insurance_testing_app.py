@@ -93,7 +93,7 @@ st.title("Lachie Insurance Testing App")
 st.header("Select Insurer")
 insurer_options = {
     "Aviva": 1000,
-    "Admiral": 850,
+    "Admiral": 1220,
     "Wakam": 2000
 }
 insurer = st.radio("Insurer", list(insurer_options.keys()), index=0)
