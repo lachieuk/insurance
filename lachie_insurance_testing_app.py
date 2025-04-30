@@ -92,7 +92,7 @@ st.title("Lachie Insurance Testing App")
 
 st.header("Select Insurer")
 insurer_options = {
-    "Aviva": 1000,
+    "Aviva": 1500,
     "Admiral": 1220,
     "Wakam": 2000
 }
