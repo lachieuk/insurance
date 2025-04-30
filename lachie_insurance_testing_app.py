@@ -103,7 +103,7 @@ st.header("Enter Customer Details")
 with st.form("customer_form"):
     age = st.selectbox("Age", list(range(17, 61)))
     driving_experience = st.selectbox("Driving Experience (Years Licensed)", ["<2", "2-5", "5-10", "10-20", ">20"])
-    driving_record = st.selectbox("Driving Record", [
+    driving_record = st.selectbox("Driving Record Last 5 Years", [
         "Clean Record", "1 Minor Violation", "2 Minor Violations", "1 Major Violation",
         "1 At-Fault Claim", "2 At-Fault Claims", "1 Minor + 1 At-Fault",
         "1 Major + 1 At-Fault", "Multiple Violations/Claims"
