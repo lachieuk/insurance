@@ -92,9 +92,9 @@ st.title("Lachie Insurance Testing App")
 
 st.header("Select Insurer")
 insurer_options = {
-    "Aviva (£1,000)": 1000,
-    "Admiral (£850)": 850,
-    "Wakam (£2,000)": 2000
+    "Aviva": 1000,
+    "Admiral": 850,
+    "Wakam": 2000
 }
 insurer = st.radio("Insurer", list(insurer_options.keys()), index=0)
 base_premium = insurer_options[insurer]
