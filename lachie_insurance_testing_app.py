@@ -90,8 +90,14 @@ def calculate_premium(base_premium, customer_data):
 # Streamlit interface
 st.title("Lachie Insurance Testing App")
 
-st.header("Select Base Premium")
-base_premium = st.radio("Base Premium (£)", [500, 850, 1000, 2000], index=2)
+st.header("Select Insurer")
+insurer_options = {
+    "Aviva (£1,000)": 1000,
+    "Admiral (£850)": 850,
+    "Wakam (£2,000)": 2000
+}
+insurer = st.radio("Insurer", list(insurer_options.keys()), index=0)
+base_premium = insurer_options[insurer]
 
 st.header("Enter Customer Details")
 with st.form("customer_form"):
