@@ -1,0 +1,57 @@
+{
+  "type": "bar",
+  "data": {
+    "labels": ["Standard Range RWD", "Long Range RWD", "Long Range AWD"],
+    "datasets": [
+      {
+        "label": "Hire Purchase (HP)",
+        "data": [45, 50, 55],
+        "backgroundColor": "#4CAF50",
+        "borderColor": "#388E3C",
+        "borderWidth": 1
+      },
+      {
+        "label": "Personal Contract Purchase (PCP)",
+        "data": [50, 55, 60],
+        "backgroundColor": "#2196F3",
+        "borderColor": "#1976D2",
+        "borderWidth": 1
+      },
+      {
+        "label": "Personal Contract Hire (PCH)",
+        "data": [55, 60, 60],
+        "backgroundColor": "#FF9800",
+        "borderColor": "#F57C00",
+        "borderWidth": 1
+      }
+    ]
+  },
+  "options": {
+    "scales": {
+      "y": {
+        "beginAtZero": true,
+        "title": {
+          "display": true,
+          "text": "Monthly Insurance Premium (£)"
+        },
+        "max": 80
+      },
+      "x": {
+        "title": {
+          "display": true,
+          "text": "Vehicle Trim"
+        }
+      }
+    },
+    "plugins": {
+      "legend": {
+        "display": true,
+        "position": "top"
+      },
+      "title": {
+        "display": true,
+        "text": "Flat Monthly Insurance Premiums for Tesla Financing Options"
+      }
+    }
+  }
+}
